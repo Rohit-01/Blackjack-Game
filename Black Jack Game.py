@@ -42,7 +42,7 @@ print(mycard)
     
    
    
- class Player:
+class Player:
     def __init__(self,name):
         self.name=name
         self.all_cards=[]
@@ -67,8 +67,8 @@ new_deck = Deck()
 new_deck.shuffle()
 
 for x in range(26):
-    player_one.add_cards(new_deck.deal_one())
-    player_two.add_cards(new_deck.deal_one())
+    player_one.add_cards(new_deck.del_one())
+    player_two.add_cards(new_deck.del_one())
     
 game_on = True
 
