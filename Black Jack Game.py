@@ -27,18 +27,18 @@ class Deck:
     def del_one(self):
         return self.all_cards.pop()
 		
-obj2=Deck()
-sdd=obj2.all_cards[2]
+# obj2=Deck()
+# sdd=obj2.all_cards[2]
 
 
-for card in obj2.all_cards:
-    print(card)
-obj2.shuffle()
-print(obj2.all_cards[1])
+# for card in obj2.all_cards:
+#     print(card)
+# obj2.shuffle()
+# print(obj2.all_cards[1])
 
     
-mycard=obj2.del_one()
-print(mycard)
+# mycard=obj2.del_one()
+# print(mycard)
     
    
    
